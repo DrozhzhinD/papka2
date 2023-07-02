@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-app2/static/css/main.b82e0015.css",
+    "main.js": "/my-app2/static/js/main.8b7740f6.js",
+    "static/media/Breezy Summer Style.svg": "/my-app2/static/media/Breezy Summer Style.4c64092545716a59e70d59bc3c186f44.svg",
+    "static/media/High coziness.svg": "/my-app2/static/media/High coziness.0d96acee12d48cb3eb61c27ea035db06.svg",
+    "static/media/Rectangle 22 (2).png": "/my-app2/static/media/Rectangle 22 (2).da5d19be5e146f94e34a.png",
+    "static/media/Rectangle 22.png": "/my-app2/static/media/Rectangle 22.0e7d4e246eebeb96f593.png",
+    "static/media/Rectangle 20.png": "/my-app2/static/media/Rectangle 20.c071d6752d2610dca6b7.png",
+    "static/media/Rectangle 202.png": "/my-app2/static/media/Rectangle 202.4ffd818b4d9252291be6.png",
+    "static/media/Rectangle 21 (1).png": "/my-app2/static/media/Rectangle 21 (1).a4edb8786ff2080bac49.png",
+    "static/media/Rectangle 22 (1).png": "/my-app2/static/media/Rectangle 22 (1).3cf30df1fe73f1445d0e.png",
+    "static/media/Rectangle 21 (2).png": "/my-app2/static/media/Rectangle 21 (2).5b83c28dd50246c814a9.png",
+    "static/media/Rectangle 22 (3).png": "/my-app2/static/media/Rectangle 22 (3).fecf6615706cd6c0e629.png",
+    "static/media/Logo.svg": "/my-app2/static/media/Logo.51e66043a503660ba108c0e1a89e464b.svg",
+    "static/media/Component 3.svg": "/my-app2/static/media/Component 3.b695c9c7285ffbefd38951eb4fbf72be.svg",
+    "static/media/Component 1.svg": "/my-app2/static/media/Component 1.dcccbb7b8506d52765c860b2e82de5ec.svg",
+    "index.html": "/my-app2/index.html",
+    "static/media/Component 2.svg": "/my-app2/static/media/Component 2.fd0970732ca3fe4c62061ebbe9a9d70b.svg",
+    "main.b82e0015.css.map": "/my-app2/static/css/main.b82e0015.css.map",
+    "main.8b7740f6.js.map": "/my-app2/static/js/main.8b7740f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82e0015.css",
+    "static/js/main.8b7740f6.js"
+  ]
+}
