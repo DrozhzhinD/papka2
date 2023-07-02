@@ -1,0 +1,124 @@
+.main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posters {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.posters img{
+    height: 300px;
+    weight: 150px;
+}
+
+.MenTitle {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-family: Ubuntu, sans-serif;
+    font-size: 28px;
+}
+
+.cards {
+    background: white;
+    margin-bottom: 20vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    justify-items: center; 
+    column-gap: 30px;
+    row-gap: 15vh;
+}
+
+.card {
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10vh;
+    background: ghostwhite;
+    padding: 0.3vh 1vh;
+    border-radius: 50vh;
+}
+
+.card a:hover {
+    background: #909090;
+}
+
+.card span {
+    text-decoration: none;
+    color: black;
+    padding: 0 3vh;
+    font-size: 18px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: lighter;
+}
+
+.card img{
+    width: 90%;
+    height: 90%;
+}
+
+@media only screen and (min-width: 321px) {
+    .posters img{
+        height: 100px;
+        weight: 30px;
+    }
+
+    .MenTitle {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        font-family: Ubuntu, sans-serif;
+        font-size: 18px;
+    }
+
+    .cards {
+        background: white;
+        margin-bottom: 20vh;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 225px);
+        width: 100%;
+        max-width: 321px;
+        justify-content: center;
+        justify-items: center; 
+        column-gap: 30px;
+        row-gap: 15vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .posters img{
+        height: 200px;
+        weight: 100px;
+    }
+
+    .cards {
+        background: white;
+        margin-bottom: 20vh;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 225px);
+        width: 100%;
+        max-width: 768px;
+        justify-content: center;
+        justify-items: center; 
+        column-gap: 30px;
+        row-gap: 15vh;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .posters img{
+        height: 300px;
+        weight: 150px;
+    }
+}

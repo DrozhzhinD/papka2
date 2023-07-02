@@ -1,0 +1,60 @@
+.footer {
+    background: #1f2022;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+    padding: 3vh 3vh;
+    flex: 0 0 auto;
+}
+
+.title {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 100%;
+    color: white;
+}
+
+.brands span, .end span {
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pictures img {
+    height: 10vh;
+    weight: 10vh;
+    margin: 1vh 1vh;
+}
+
+@media only screen and (min-width: 321px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .pictures img {
+        height: 30px;
+        weight: 10px;
+        margin: 1vh 1vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .pictures img {
+        height: 60px;
+        weight: 20px;
+        margin: 1vh 1vh;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+}

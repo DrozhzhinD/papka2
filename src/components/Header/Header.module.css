@@ -1,0 +1,96 @@
+.header {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 3vh;
+    flex: 0 0 auto;
+}
+
+@media only screen and (min-width: 321px) {
+    .header {
+        padding: 1.5vh 1.5vh;
+    }
+
+    navbar a{
+        font-size: 9px;
+        padding: 0 0.5vh;
+        text-decoration: none;
+        color: black;
+        font-family: Ubuntu, sans-serif;
+        font-weight: lighter;
+    }
+
+    .header button {
+        border-radius: 1.45em;
+        padding: 0.25vh 1vh;
+    }
+    
+    img {
+        height: 20px;
+        weight: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        padding: 2vh 2vh;
+    }
+
+    navbar a{
+        font-size: 15px;
+        padding: 0 1vh;
+    }
+
+    .header button {
+        padding: 1vh 3vh;
+        border-radius: 1.45em;
+        color: white;
+    }
+
+    img {
+        height: 40px;
+        weight: 40px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .header {
+        padding: 3vh 3vh;
+    }
+
+    navbar a{
+        text-decoration: none;
+        color: black;
+        padding: 0 3vh;
+        font-size: 18px;
+        font-family: Ubuntu, sans-serif;
+        font-weight: lighter;
+    }
+    
+    navbar a:hover {
+        background:rgb(144, 144, 144);
+        transition: 1s;
+        border-radius: 5vh;
+    }
+    
+    .header button {
+        border-radius: 1.45em;
+        color: white;
+        margin: 1vh 1vh;
+    }
+    
+    .header button:hover {
+        cursor: pointer;
+        background: rgb(0, 0, 0);
+        transition: 0.5s;
+        border-radius: 50vh;
+    }
+
+    img {
+        height: 40px;
+        weight: 40px;
+    }
+}
